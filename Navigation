@@ -1,57 +1,262 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<style>
-body {margin:0;}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #736F6E;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  background-color: #36454F;
-}
-
-.active {
-  background-color: #36454F;
-}
-</style>
+  <title> Student Profile </title>
 </head>
+
 <body>
 
-<ul>
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a class="blogs" href="#blogs">Blogs</a></li>
-  <li><a class="people" href="#people">People</a></li>
- 
-</ul>
+ <h1> People </h1>
 
-<div style="padding:20px;margin-top:30px;background-color:#E3E4F4;height:1500px;">
-<div class="blogs">
-                  <p>cadc</p>
-</div>
-<div class="people">
-                  <p>nakakabaliw.</p>
-</div>
+  <table> 
+
+     <tr>
+       <th>Name</th>
+       <th></th>
+       <th></th>
+       <th></th>
+     </tr>
+
+     <tr>
+        <td>ABAYARE, Mariel J</td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+
+     <tr>
+        <td>ABDULLAH, Norhanah B</td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+
+     <tr>
+        <td>ABRIOL, cole andrew C</td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+
+     <tr>
+        <td>ARAGO, john henry</td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+
+     <tr>
+        <td>BROQUEZA, joan B</td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+
+     <tr>
+        <td>CATALAN, ariane R</td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+
+     <tr>
+        <td>ERO, patrick andrei P</td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+
+     <tr>
+        <td>GA-AS, joebert P</td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+
+     <tr>
+        <td>HERNANDEZ, jaydellane C</td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+
+     <tr>
+        <td>JIMENEZ, elijah joshua O</td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+
+     <tr>
+        <td>LAJUM, kenneth N</td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+
+     <tr>
+        <td>LAUSA, kevin son G</td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+
+     <tr>
+        <td>LEGO, inah mae B</td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+
+     <tr>
+        <td>LEMETARES, audrey rose B</td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+
+     <tr>
+        <td>LUKBAN, michael joshua anthony</td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+
+     <tr>
+        <td>MARCOS, dj claire L</td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+
+     <tr>
+        <td>MARQUEZ, cassandra B</td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+
+     <tr>
+        <td>MILLA, norefe D</td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+
+     <tr>
+        <td>NOSOTROS, mark daryl</td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+
+     <tr>
+        <td>POJAS, merille joy P</td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+
+     <tr>
+        <td>REYES, jhoyce B</td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+
+     <tr>
+        <td>SANTOS, mara clariza R</td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+
+     <tr>
+        <td>SANTUA, paul P</td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+
+     <tr>
+        <td>SEREDRICA, jefferson S</td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+
+     <tr>
+        <td>SIRIOS, bobby vincent iii P</td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+
+     <tr>
+        <td>SOBERANO, jika B</td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+
+     <tr>
+        <td>SUCGANG, richard L</td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+
+     <tr>
+        <td>TARNATE, sheena mae M</td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+
+     <tr>
+        <td>TORRIGOZA, angel D</td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+
+     <tr>
+        <td>Jyrone Sales</td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+
+     <tr>
+        <td>Dorotan Joshua</td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+
+     <tr>
+        <td>JOHN MICHEAL AGUILAR</td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+
+     <tr>
+        <td>MOISES DOLLETON</td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+
+     <tr>
+        <td>DUSTIN MELO ERIDANI</td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+
+  </table>
 
 </body>
 </html>
