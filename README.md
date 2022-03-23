@@ -48,10 +48,10 @@ li a:hover:not(.active) {
 
 <div style="padding:20px;margin-top:30px;background-color:#E3E4F4;height:1500px;">
 <div class="blogs">
-                  <p>huhu</p>
+                  <p></p>
 </div>
 <div class="people">
-                  <p>nakakabaliw.</p>
+                  <p>.</p>
 </div>
 
 </body>
