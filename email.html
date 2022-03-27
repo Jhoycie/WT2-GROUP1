@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+ .pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: whitesmoke;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 60;
+}
+
+li a:hover:not(.active) {
+  background-color: lightblue;
+}
+
+.active {
+  background-color: transparent;
+}
+h2
+{
+  font-size: 40px;
+  color: #808B96  ;
+  text-align: justify-all;
+  font-family:KNOCKOUT ;
+
+}
+H3{
+  font-size: 40px;
+  color:#ECF0F1  ;
+  text-align: center;
+  font-family: Friz Quadrata;
+}
+h4{
+
+}
+body 
+{
+     min-height: 100vh;
+     width: 100%;
+     background-image: url('https://c.tenor.com/DVzVKfkHYJcAAAAd/galaxy-space.gif');
+     text-align: center;
+     background-size: cover;    
+}
+
+table {
+  width:100%;
+}
+table, th, td,{
+   border: 6px solid black;
+   border-radius: 20px
+}
+
+}
+th, td , {
+  padding: 20px;
+  text-align: center;
+  position: absolute;
+}
+#t01 th {
+ background-color: #979A9A ;
+ color:#0a0f0f;
+ font-size: 20px ;
+ opacity: 0.7;
+}
+#t01 td {
+  background-color:#283747;
+  color: whitesmoke;
+  font-size: 17px ;
+  opacity: 0.8;
+}
+</style>
+</head>
+<body>
+
+<table id="t01">
+  <tr>
+    <th>NAME</th>
+    <th>EMAIL ADDRESS</th>
+</tr>
+
+<h2> </h2>
+<h2> </h2>
+<tr>
+<td>
+  <span>Abayare, Mariel Jaboya </span>
+  
+    </td>
+
+    <td>abayaremariel_act@plmun.edu.ph </td>
+
+</tr>
+<tr>
+
+    <td>Abdullah, Norhanah B.</a>
+
+    </td>
+
+    <td>abdullahnorhanah_act@plmun.edu.ph
+</tr>
+<tr>
+
+    <td>Abriol, Cole Andrew C. </a>
+
+    </td>
+
+    <td>abriolcoleandrew_act@plmun.edu.ph  </td>
+
+  </tr>
+  <tr>
+
+    <td>Arago, John Henry </a>
+
+    </td>
+
+    <td>aragojohnhenry_act@plmun.edu.ph  </td>
+
+</tr>
+<tr>
+
+    <td>Broqueza, Joan B</a>
+  
+    </td>
+
+    <td>abdullahnorhanah_act@plmun.edu.ph td</td>
+
+</tr>
+<tr>
+
+    <td>Catalan, Ariane R.  </a>
+
+    </td>
+
+    <td>catalanariane_act@plmun.edu.ph  </td>
+
+
+  </tr>
+  <tr>
+
+    <td>Dolleton, Moises </a>
+
+    </td>
+    <td>dolletonmoises_act@plmun.edu.ph  </td>
+
+</tr>
+<tr>
+
+    <td>Dorotan, Joshua.</a>
+
+    </td>
+
+    <td>dorotanjoshua_act@plmun.edu.ph </td>
+</tr>
+<tr>
+
+    <td>Ero, Patrick Andrei P</a>
+
+    </td>
+
+    <td>eropatrick_act@plmun.edu.ph </td>
+
+  </tr>
+  <tr>
+
+    <td>Ga-as, Joebert P</a>
+
+    </td>
+
+    <td>gaasjoebert_act@plmun.edu.ph </td>
+
+</tr>
+<tr>
+
+    <td>Hernandez, Jaydellane C. </a>
+
+    </td>
+
+    <td>hernandezjaydellane_act@plmun.edu.ph </td>
+
+</tr>
+<tr>
+
+    <td>Jimenez, Elijah Joshua O. </a>
+
+    </td>
+
+    <td>jimenezelijahjoshua_act@plmun.edu.ph </td>
+
+<tr>
+
+    <td>Lajum, Keneth </a>
+
+    </td>
+
+    <td>lajumkenneth_act@plmun.edu.ph </td>
+
+</tr>
+<tr>
+
+    <td>Lausa, Kevin Son G. .</a>
+  
+    </td>
+
+    <td>lausakevinson_act@plmun.edu.ph</td>
+
+
+</tr>
+<tr>
+
+    <td>Lego, Inah Mae</a>
+
+    </td>
+
+    <td>legoinahmae_act@plmun.edu.ph </td>
+
+  </tr>
+  <tr>
+
+    <td>Lemetares, Audrey</a>
+
+    </td>
+    <td>lemetaresaudreyrose_act@plmun.edu.ph </td>
+
+
+</tr>
+<tr>
+
+    <td>Lukban, Michael Joshua Anthony </a>
+
+  
+    </td>
+
+    <td>lukbanmichaeljoshuaanthony_act@plmun.edu.ph </td>
+
+</tr>
+<tr>
+
+    <td>Marcos, DJ Claire </a>
+  
+    </td>
+
+    <td>marcosdjclaire_act@plmun.edu.ph </td>
+
+
+  </tr>
+  <tr>
+
+    <td>Marquez, Cassandra Baysa </a>
+
+    </td>
+
+    <td>marquezcassandra_act@plmun.edu.ph </td>
+
+</a>
+
+</tr>
+<tr>
+
+    <td>Milla, Norefe </a>
+  
+    </td>
+
+    <td>millanorefe_act@plmun.edu.ph </td>
+
+</tr>
+<tr>
+
+    <td>Nosotros, Mark Daryl </a>
+  
+    </td>
+
+    <td>nosotrosmarkdaryl_act@plmun.edu.ph </td>
+
+
+  </tr>
+  <tr>
+
+    <td>Pojas, Merille Joy P. </a>
+
+    </td>
+
+    <td>pojasmerille_act@plmun.edu.ph </td>
+
+
+</tr>
+<tr>
+
+    <td>Reyes, Jhoyce Myka B. 🤍</a>
+  
+    </td>
+
+    <td>reyesjhoyce_act@plmun.edu.ph </td>
+
+
+</tr>
+<tr>
+
+    <td>Sales, Jyrone Resty B. </a>
+
+    </td>
+
+    <td>salesjyrone_act@plmun.edu.ph </td>
+
+<tr>
+
+    <td>Samulde, Raminie F </a>
+
+    </td>
+
+    <td>samulderaminie_act@plmun.edu.ph  </td>
+
+
+</tr>
+<tr>
+
+    <td>Santos, Mara Clariza R. </a>
+
+    </td>
+    <td>santosmaraclariza_act@plmun.edu.ph</td>
+
+
+</tr>
+<tr>
+
+    <td>Santua, Paul</a>
+
+    </td>
+
+  
+    </td>
+
+    <td>santuapaul_act@plmun.edu.ph </td>
+
+
+  </tr>
+  <tr>
+
+    <td>Seredrica, Jefferson, S. </a>
+
+    </td>
+  
+    </td>
+
+    <td>seredricajefferson_act@plmun.edu.ph </td>
+
+
+</tr>
+<tr>
+
+    <td>Sirios, Bobby Vincent P. III </a>
+
+    </td>
+    <td>siriosbobbyvincentiii_act@plmun.edu.ph </td>
+
+
+</tr>
+<tr>
+
+    <td>Soberano, Jika  </a>
+
+    </td>
+
+  
+    <td>soberanojika_act@plmun.edu.ph </td>
+
+
+  </tr>
+  <tr>
+
+    <td>Sucgang, Richard </a>
+
+    <td>sucgangrichard_act@plmun.edu.ph </td>
+
+
+</tr>
+<tr>
+
+    <td>Tarnate, Sheena Mae M</a>
+
+  
+    </td>
+
+    <td>tarnatesheenamae_act@plmun.edu.ph </td>
+
+
+</tr>
+<tr>
+
+    <td>Torrigoza, Angel </a>
+  
+    </td>
+
+    <td>torrigozaangel_act@plmun.edu.ph </td>
+
+
+
+
+</body>
+</html>
